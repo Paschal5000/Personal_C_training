@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+// A program to check whether a
+// character is lowercase or not
+
+int main()
+{
+    char c;
+    
+    printf("Enter The Character:");
+    scanf("%c", &c);
+    
+    if (c >= 'a' && c <= 'z' )
+    printf("It is a Lowercase Character");
+    else if (c >= 'A' && c <= 'Z')
+    printf("It is an Uppercase  Character");
+    else
+    printf("Not an alphabetic Character!");
+    
+    return 0;
+}
