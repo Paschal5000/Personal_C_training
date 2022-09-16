@@ -1,0 +1,18 @@
+#include <stdio.h>
+ 
+ // A program that prints the multiplication
+ // table of 10 in reverse order
+ 
+ int main()
+ {
+     int a = 10;
+     int i = 10;
+     printf("The multiplication table of %d is:\n", a);
+     printf("------------------------\n");
+     while (i >= 0)
+     {
+         printf("%d x %d = %d\n", a, i, a * i);
+         i--;
+     }
+     return 0;
+ }
